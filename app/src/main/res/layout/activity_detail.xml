@@ -58,7 +58,7 @@
                         android:layout_height="wrap_content"
                         android:text="Detail View"
                         android:textColor="@color/white"
-                        android:textSize="24dp"
+                        android:textSize="26dp"
                         android:textStyle="bold"
                         app:layout_constraintBottom_toBottomOf="@+id/backbtn"
                         app:layout_constraintEnd_toStartOf="@+id/imageView10"
@@ -92,13 +92,14 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:orientation="vertical"
-                        app:layout_constraintTop_toTopOf="parent">
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:layout_editor_absoluteX="16dp">
 
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="24dp"
                             android:layout_marginStart="16dp"
+                            android:layout_marginTop="24dp"
                             android:layout_marginEnd="16dp"
                             android:orientation="horizontal">
 
@@ -182,8 +183,8 @@
                                     android:layout_marginStart="16dp"
                                     android:layout_marginTop="8dp"
                                     android:layout_marginEnd="16dp"
-                                    android:textColor="@color/black"
                                     android:text="-"
+                                    android:textColor="@color/black"
                                     android:textStyle="bold" />
                             </LinearLayout>
 
@@ -223,8 +224,8 @@
                                     android:layout_marginStart="16dp"
                                     android:layout_marginTop="8dp"
                                     android:layout_marginEnd="16dp"
-                                    android:textColor="@color/black"
                                     android:text="-"
+                                    android:textColor="@color/black"
                                     android:textStyle="bold" />
                             </LinearLayout>
 
@@ -262,8 +263,8 @@
                                     android:layout_marginStart="16dp"
                                     android:layout_marginTop="8dp"
                                     android:layout_marginEnd="16dp"
-                                    android:textColor="@color/black"
                                     android:text="-"
+                                    android:textColor="@color/black"
                                     android:textStyle="bold" />
 
                             </LinearLayout>
